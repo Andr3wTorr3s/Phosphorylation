@@ -7,5 +7,5 @@ sbatch submitter.sh
 
 this script runs 10 gpu jobs in parallel to do a 10 fold cross validation, and saves all the respective models and their testing scores (AUPRC and accuracy)
 
-the models are saved the the respective folders as well.
+the models are saved in their respective folders.
 
