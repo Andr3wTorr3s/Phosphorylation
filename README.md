@@ -5,7 +5,7 @@ Train models by running the submission script on the DU SLURM cluster using the 
 
 sbatch submitter.sh
 
-this script runs 10 gpu jobs in parallel to do a 10 fold cross validation, and saves all the respective models and their testing scores (AUPRC and accuracy)
+this script runs 10 gpu jobs in parallel to do a 10 fold cross validation, and saves all the respective models and their testing scores (AUPRC MCC and accuracy)
 
 the models are saved in their respective folders.
 
