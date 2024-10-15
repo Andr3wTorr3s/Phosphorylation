@@ -1,5 +1,6 @@
 # Phosphorylation
-2 models presented here that train and validate on SCDM and SHDM maps based on the Phos data set. (located in the kings group shared folder) 
+2 CNN models that take SCDM and SCDM+SHDM maps respectivly as inputs and predict Phosphorylation (binary 1 for yes 0 for no)
+SCDM and SHDM maps are created from the Phos dataset(located in the kings group shared folder) 
 
 Train models by running the submission script on the DU SLURM cluster using the command
 
